@@ -1,0 +1,75 @@
+47590.52,47666.97,46900.0,47299.64,2390.139118
+47299.62,47459.89,47080.84,47366.42,1228.025277
+47366.43,47888.88,47311.01,47885.43,1686.108649
+47885.43,48010.54,47539.88,47653.14,1739.095492
+47653.15,47980.0,47526.28,47928.59,1491.545837
+47928.6,48050.0,47700.0,47754.03,1658.875537
+47754.02,48678.9,47569.77,48591.75,2624.961256
+48590.37,48599.98,47000.0,47027.49,3579.9713
+47027.49,47360.0,46542.29,46961.71,3073.850875
+46961.71,47111.78,46700.0,46884.84,2005.626534
+46885.07,47400.0,46864.32,47249.99,1521.006965
+47249.99,47727.37,47246.0,47712.94,1299.016975
+47716.44,47938.77,47588.65,47703.67,1497.794604
+47699.4,48125.58,47658.0,47969.51,1540.155635
+47968.66,48985.8,47958.78,48458.08,4673.292678
+48458.08,48736.62,47770.58,47990.0,2113.414971
+47990.01,48273.48,47721.0,48062.53,1542.778083
+48062.53,48550.0,48060.78,48477.5,1414.337844
+48477.51,48477.51,48033.82,48050.0,1931.438576
+48050.0,48141.01,47729.68,47935.66,1274.582837
+47935.66,47988.49,47614.66,47852.5,1090.190214
+47856.14,47882.77,47338.35,47587.31,1380.972249
+47587.31,47587.31,46888.0,47270.78,2515.954166
+47270.17,47390.7,46900.6,47271.55,2208.667345
+47271.54,47506.44,47086.3,47393.99,2046.506324
+47393.99,47480.0,47193.33,47257.09,1351.449669
+47257.09,47400.0,46789.0,47392.92,2151.976942
+47399.92,47551.02,47243.74,47380.16,1331.734757
+47380.15,47386.95,47035.68,47036.65,1320.293468
+47036.65,47475.0,46903.48,47318.81,1600.715028
+47318.02,47700.0,47166.85,47617.66,1573.133569
+47615.38,47645.41,47080.0,47117.86,1833.690868
+47117.86,47360.0,47027.03,47222.51,1463.076149
+47222.52,47400.0,47116.08,47337.0,1203.642352
+47337.01,47711.0,47300.0,47587.59,1534.195413
+47587.59,47611.89,47337.37,47381.16,1176.262353
+47371.8,47860.23,47280.26,47860.0,1559.781661
+47859.98,47999.0,47555.07,47562.42,1406.985527
+47560.06,47741.55,47370.72,47370.73,563.80612
+47705.02,47957.87,47703.36,47895.61,362.011239
+47669.82,48140.0,47646.0,47823.5,1992.878375
+47823.51,47911.48,47750.0,47846.1,572.945951
+47871.4,47878.74,47550.0,47671.56,1315.227966
+47382.22,47421.1,46125.0,46482.55,5732.519466
+46542.6,46856.22,46525.25,46691.45,538.391532
+46995.54,46998.99,46774.08,46902.18,374.061565
+47021.05,47219.63,47008.4,47060.99,439.206369
+47810.0,47980.0,47714.8,47791.63,644.230111
+
+
+*/5 * * * * cd "/private/var/www/Python Projects/crypto-screener-app" && venv/bin/flask scheduled ETHBTC >>src/scheduled.log 2>&1
+*/5 * * * * cd "/private/var/www/Python Projects/crypto-screener-app" && venv/bin/flask scheduled LTCBTC >>src/scheduled.log 2>&1
+*/5 * * * * cd "/private/var/www/Python Projects/crypto-screener-app" && venv/bin/flask scheduled BNBBTC >>src/scheduled.log 2>&1
+*/5 * * * * cd "/private/var/www/Python Projects/crypto-screener-app" && venv/bin/flask scheduled NEOBTC >>src/scheduled.log 2>&1
+*/5 * * * * cd "/private/var/www/Python Projects/crypto-screener-app" && venv/bin/flask scheduled QTUMETH >>src/scheduled.log 2>&1
+*/5 * * * * cd "/private/var/www/Python Projects/crypto-screener-app" && venv/bin/flask scheduled EOSETH >>src/scheduled.log 2>&1
+*/5 * * * * cd "/private/var/www/Python Projects/crypto-screener-app" && venv/bin/flask scheduled SNTETH >>src/scheduled.log 2>&1
+*/5 * * * * cd "/private/var/www/Python Projects/crypto-screener-app" && venv/bin/flask scheduled BNTETH >>src/scheduled.log 2>&1
+*/5 * * * * cd "/private/var/www/Python Projects/crypto-screener-app" && venv/bin/flask scheduled BCCBTC >>src/scheduled.log 2>&1
+*/5 * * * * cd "/private/var/www/Python Projects/crypto-screener-app" && venv/bin/flask scheduled GASBTC >>src/scheduled.log 2>&1
+*/5 * * * * cd "/private/var/www/Python Projects/crypto-screener-app" && venv/bin/flask scheduled BNBETH >>src/scheduled.log 2>&1
+*/5 * * * * cd "/private/var/www/Python Projects/crypto-screener-app" && venv/bin/flask scheduled BTCUSDT >>src/scheduled.log 2>&1
+*/5 * * * * cd "/private/var/www/Python Projects/crypto-screener-app" && venv/bin/flask scheduled ETHUSDT >>src/scheduled.log 2>&1
+*/5 * * * * cd "/private/var/www/Python Projects/crypto-screener-app" && venv/bin/flask scheduled HSRBTC >>src/scheduled.log 2>&1
+*/5 * * * * cd "/private/var/www/Python Projects/crypto-screener-app" && venv/bin/flask scheduled OAXETH >>src/scheduled.log 2>&1
+*/5 * * * * cd "/private/var/www/Python Projects/crypto-screener-app" && venv/bin/flask scheduled DNTETH >>src/scheduled.log 2>&1
+*/5 * * * * cd "/private/var/www/Python Projects/crypto-screener-app" && venv/bin/flask scheduled MCOETH >>src/scheduled.log 2>&1
+*/5 * * * * cd "/private/var/www/Python Projects/crypto-screener-app" && venv/bin/flask scheduled ICNETH >>src/scheduled.log 2>&1
+*/5 * * * * cd "/private/var/www/Python Projects/crypto-screener-app" && venv/bin/flask scheduled MCOBTC >>src/scheduled.log 2>&1
+*/5 * * * * cd "/private/var/www/Python Projects/crypto-screener-app" && venv/bin/flask scheduled WTCBTC >>src/scheduled.log 2>&1
+*/5 * * * * cd "/private/var/www/Python Projects/crypto-screener-app" && venv/bin/flask scheduled WTCETH >>src/scheduled.log 2>&1
+*/5 * * * * cd "/private/var/www/Python Projects/crypto-screener-app" && venv/bin/flask scheduled LRCBTC >>src/scheduled.log 2>&1
+*/5 * * * * cd "/private/var/www/Python Projects/crypto-screener-app" && venv/bin/flask scheduled LRCETH >>src/scheduled.log 2>&1
+*/5 * * * * cd "/private/var/www/Python Projects/crypto-screener-app" && venv/bin/flask scheduled QTUMBTC >>src/scheduled.log 2>&1
+*/5 * * * * cd "/private/var/www/Python Projects/crypto-screener-app" && venv/bin/flask scheduled YOYOBTC >>src/scheduled.log 2>&1
